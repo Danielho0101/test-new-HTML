@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="http://unpkg.com/alpinejs"> </script>
+    <link rel="stylesheet" href="style.css">
+  
+    <style>
+figure{
+    text-align: center;
+    margin-top: 5px;
+    font-style: italic;
+}
+
+    </style>
+</head>
+<body>
+
+    <h1>T</h1>
+ 
+    <div>This is some content
+       <p>i am red </p><span>hello world</span>
+    </div>
+    <h2>This is h2</h2>
+    <h3>This is h3</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, neque!</p>
+    <input type="text">
+    <input type="text" placeholder="hello" list="username">
+
+    <datalist id="username">
+        <option value="Tony">
+        <option value="Tom" >
+        <option value="Peter">
+    </datalist>
+
+    <details>
+        <summary>How are you today</summary>
+        <p>good</p>
+    </details>
+
+<div x-data>
+    <p>
+        <button @click="document.querySelector('dialog').showModal()">Process</button>
+    </p>
+
+
+<dialog>
+    <p>Are you sure about that?</p>
+
+    <div>
+        <button @click="document.querySelector('dialog').close()">Yes</button>
+        <button @click="document.querySelector('dialog').close()">No</button>
+    </div>
+</dialog>
+</div>
+
+<!-- <figure>
+    <img src="https://pixy.org/src2/594/5942833.jpg" width="30%">
+
+    <figcaption>This is a some picture</figcaption>
+</figure> -->
+
+<br>
+
+<figure>
+    <figcaption>example.php</figcaption>
+<pre>
+    $name = 'Daniel';
+
+     echo $name;
+
+</pre>
+</figure>
+
+<br>
+<figure>
+    <figcaption>Shakespeesr</figcaption>
+    <blockquote>To be or not to be ..</blockquote>
+</figure>
+
+<!-- <picture>
+    <source media="(max-width: 720px" srcset="https://piscum.photos/100/100">
+    <source media="(min-width: 1024px" srcset="https://piscum.photos/200/200">
+</picture> -->
+
+<table>
+    <thead> This is some number </thead>
+    <tr>
+        <th>one</th>
+        <th>Two</th>
+        <th>three</th>
+  </tr>
+  <tr>
+     <td>1</td>
+     <td>2</td>
+     <td>3</td>
+</tr>
+</table>
+
+<div style="overflow-x: auto ;"></div>
+<table>
+    <tr>
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th>Points</th>
+      <th>Points</th>
+      <th>Points</th>
+      <th>Points</th>
+      <th>Points</th>
+      <th>Points</th>
+      <th>Points</th>
+      <th>Points</th>
+      <th>Points</th>
+      <th>Points</th>
+    </tr>
+    <tr>
+      <td>Jill</td>
+      <td>Smith</td>
+      <td>50</td>
+      <td>50</td>
+      <td>50</td>
+      <td>50</td>
+      <td>50</td>
+      <td>50</td>
+      <td>50</td>
+      <td>50</td>
+      <td>50</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <td>Eve</td>
+      <td>Jackson</td>
+      <td>94</td>
+      <td>94</td>
+      <td>94</td>
+      <td>94</td>
+      <td>94</td>
+      <td>94</td>
+      <td>94</td>
+      <td>94</td>
+      <td>94</td>
+      <td>94</td>
+    </tr>
+    <tr>
+      <td>Adam</td>
+      <td>Johnson</td>
+      <td>69</td>
+      <td>69</td>
+      <td>67</td>
+      <td>69</td>
+      <td>69</td>
+      <td>69</td>
+      <td>69</td>
+      <td>69</td>
+      <td>69</td>
+      <td>69</td>
+    </tr>
+  </table>
+</div>
+<!-- hello -->
+<!-- hth -->
+</body>
+</html>

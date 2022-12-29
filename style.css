@@ -1,0 +1,21 @@
+h1 {
+  color: red;
+  opacity: 1;
+}
+
+h2 {
+  color: blue;
+}/*# sourceMappingURL=style.css.map */
+
+table, tr, th, td{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+tr:hover {
+  background-color: aqua;
+}
+
+table:hover{
+  cursor: help;
+}

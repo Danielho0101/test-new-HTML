@@ -1,0 +1,33 @@
+.box{
+    width: 500px;
+    height: 500px;
+    background-color: black;
+}
+
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    left: 50%;
+    animation: changeColor;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    
+
+}
+
+@keyframes changeColor{
+    from{
+        background-color:blue;
+        top: 0px;
+        left: 0px;
+    }
+    to{
+        background-color: green;
+        top: 400px;
+        left: 400px;
+    }
+}
